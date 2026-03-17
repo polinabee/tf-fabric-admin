@@ -1,0 +1,39 @@
+[
+  {
+    "project_name": "analytics workspace",
+    "description": "Shared analytics workspace for development",
+    "env": "dev",
+    "department": "data",
+    "team": "platform",
+    "contacts": [
+      "data-owners@contoso.com"
+    ],
+    "capacity": "",
+    "access": {
+      "admins": [
+        {
+          "type": "Group",
+          "upn": "fabric-admins@contoso.com"
+        }
+      ],
+      "members": [
+        {
+          "type": "User",
+          "upn": "alice@contoso.com"
+        }
+      ],
+      "contributors": [
+        {
+          "type": "ServicePrincipal",
+          "id": "22222222-2222-2222-2222-222222222222"
+        }
+      ],
+      "viewers": [
+        {
+          "type": "Group",
+          "upn": "fabric-viewers@contoso.com"
+        }
+      ]
+    }
+  }
+]

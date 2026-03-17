@@ -1,0 +1,16 @@
+subscription_id = "00000000-0000-0000-0000-000000000000"
+tenant_id       = "00000000-0000-0000-0000-000000000000"
+
+# Use "user" if you've authenticated with: az login
+# Use "service_principal" to authenticate with app_id/secret below.
+auth_mode = "user"
+
+service_principal_info = {
+  name   = ""
+  app_id = ""
+  secret = ""
+}
+
+# Path to the JSON file containing workspace definitions.
+# Defaults to workspace-example.json in the module root.
+# workspaces_file = "workspace-example.json"
